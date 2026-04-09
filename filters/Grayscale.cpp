@@ -1,4 +1,5 @@
 #include "Grayscale.h"
+#include "Filter.h"
 #include "../Image.h"
 
 Grayscale::Grayscale() : Filter() {

@@ -1,4 +1,5 @@
 #pragma once
+#include "Filter.h"
 #include "../Image.h"
 
 class Grayscale : virtual public Filter {
