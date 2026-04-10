@@ -7,7 +7,7 @@ Crop::Crop(const int new_width, const int new_height) : Filter(), new_width_(new
 }
 
 Image Crop::Apply(const Image& image) const {
-    if (new_width_ >= image.GetWidth() and new_height_ >= image.GetHeight()) {
+    if (new_width_ >= image.GetWidth() && new_height_ >= image.GetHeight()) {
         return image;
     }
     std::vector<Pixel> new_pixels;
